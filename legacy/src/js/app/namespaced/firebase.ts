@@ -22,7 +22,7 @@ export const actions: Actions = {
 		// CL('start init');
 		if (fb) return;
 		const firebaseConfig = {
-			apiKey: 'AIzaSyDazmoZ4hGks6Lw1E56wmp7F2rEivDjKwU',
+			apiKey: '', // removed 2026-09-22: key leaked and revoked; supply a restricted key at build time
 			authDomain: 'mike-wolf.firebaseapp.com',
 			ConstantSourceNodeatabaseURL: 'https://mike-wolf.firebaseio.com',
 			projectId: 'mike-wolf',
